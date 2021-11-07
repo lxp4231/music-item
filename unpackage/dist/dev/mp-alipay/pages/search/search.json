@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "music-head": "/components/musicHead/musicHead",
+    "u-search": "/uview-ui/components/u-search/u-search"
+  }
+}

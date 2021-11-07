@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/index",
+    "pages/search/search",
+    "components/goodsList/goodsList",
+    "pages/detail/detail",
+    "pages/auth/login",
+    "pages/center/Follow",
+    "pages/center/Fans",
+    "pages/center/SongSheet",
+    "pages/mv/mv",
+    "pages/mv/playMv",
+    "pages/center/SongList"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "深夜网易云",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#f6716f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/h.png",
+        "selectedIconPath": "static/h-h.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "static/s.png",
+        "selectedIconPath": "static/s-s.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/mv/mv",
+        "iconPath": "static/MV-s.png",
+        "selectedIconPath": "static/MV.png",
+        "text": "MV"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "iconPath": "static/w.png",
+        "selectedIconPath": "static/w-w.png",
+        "text": "我"
+      }
+    ]
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "permission": {},
+  "usingComponents": {}
+}

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.container.data-v-5d4a757a {
+  width: 100%;
+  height: calc(100vh - 150px);
+  overflow: hidden;
+}
+.container scroll-view.data-v-5d4a757a {
+  height: 100%;
+}
+.playmv-mv.data-v-5d4a757a {
+  width: 100%;
+}
+.mv-CommentMv.data-v-5d4a757a {
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+}
+.detail-comment.data-v-5d4a757a {
+  margin: 0 30rpx;
+}
+.detail-comment .detail-comment-item.data-v-5d4a757a {
+  margin-top: 40rpx;
+  margin-bottom: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.detail-comment .detail-comment-item .detail-comment-img.data-v-5d4a757a {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 18rpx;
+}
+.detail-comment .detail-comment-item .detail-comment-img image.data-v-5d4a757a {
+  width: 100%;
+  height: 100%;
+}
+.detail-comment .detail-comment-item .detail-comment-content.data-v-5d4a757a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.detail-comment .detail-comment-item .detail-comment-content .detail-comment-title.data-v-5d4a757a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.detail-comment .detail-comment-item .detail-comment-content .detail-comment-title .detail-comment-name view.data-v-5d4a757a:nth-child(1) {
+  font-size: 26rpx;
+}
+.detail-comment .detail-comment-item .detail-comment-content .detail-comment-title .detail-comment-name view.data-v-5d4a757a:nth-child(2) {
+  color: #a5a4a7;
+  font-size: 20rpx;
+}
+.detail-comment .detail-comment-item .detail-comment-content .detail-comment-title .detail-comment-link.data-v-5d4a757a {
+  font-size: 28rpx;
+  color: #a5a4a7;
+}
+.detail-comment .detail-comment-item .detail-comment-content .detail-comment-text.data-v-5d4a757a {
+  font-size: 28rpx;
+  line-height: 48rpx;
+  margin-top: 20rpx;
+  border-bottom: 1px #e0e0e0 solid;
+  padding-bottom: 40rpx;
+}
+

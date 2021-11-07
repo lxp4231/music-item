@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/index",
+    "pages/search/search",
+    "components/goodsList/goodsList",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "深夜网易云",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#909399",
+    "selectedColor": "#f6716f",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "static/h.png",
+        "activeIcon": "static/h-h.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "name": "搜索",
+        "icon": "static/s.png",
+        "activeIcon": "static/s-s.png"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "name": "我",
+        "icon": "static/w.png",
+        "activeIcon": "static/w-w.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

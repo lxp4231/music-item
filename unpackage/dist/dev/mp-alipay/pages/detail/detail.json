@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "music-head": "/components/musicHead/musicHead",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs"
+  }
+}

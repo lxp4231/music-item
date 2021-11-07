@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.fixbg.data-v-3e159eb4 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-position: center 0;
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.container.data-v-3e159eb4 {
+  width: 100%;
+  height: calc(100vh - 70px);
+  overflow: hidden;
+}
+.container scroll-view.data-v-3e159eb4 {
+  height: 100%;
+}
+.detail-play.data-v-3e159eb4 {
+  width: 580rpx;
+  height: 580rpx;
+  background: url(/static/disc.png);
+  background-size: cover;
+  margin: 214rpx auto 0 auto;
+  position: relative;
+}
+.detail-play image.data-v-3e159eb4 {
+  width: 370rpx;
+  height: 370rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  -webkit-animation: 10s linear move-data-v-3e159eb4 infinite;
+          animation: 10s linear move-data-v-3e159eb4 infinite;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.detail-play .detail-play-run.data-v-3e159eb4 {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+@-webkit-keyframes move-data-v-3e159eb4 {
+from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes move-data-v-3e159eb4 {
+from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+.detail-play text.data-v-3e159eb4 {
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 100rpx;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.detail-play view.data-v-3e159eb4 {
+  width: 230rpx;
+  height: 360rpx;
+  background: url(/static/needle.png);
+  background-size: cover;
+  position: absolute;
+  left: 130rpx;
+  top: -580rpx;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.detail-lyric.data-v-3e159eb4 {
+  font-size: 32rpx;
+  line-height: 82rpx;
+  height: 246rpx;
+  text-align: center;
+  overflow: hidden;
+  color: #6f6e73;
+}
+.detail-lyric .detail-lyric-wrap .detail-lyric-item.data-v-3e159eb4 {
+  height: 82rpx;
+}
+.detail-lyric .detail-lyric-wrap .active.data-v-3e159eb4 {
+  color: white;
+}
+.detail-link.data-v-3e159eb4 {
+  margin: 0 30rpx;
+}
+.detail-link .detail-link-head.data-v-3e159eb4 {
+  font-size: 36rpx;
+  color: white;
+  margin: 50rpx 0;
+}
+.detail-link .detail-link-item.data-v-3e159eb4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-bottom: 28rpx;
+  margin-top: 30rpx;
+  padding-bottom: 20rpx;
+}
+.detail-link .detail-link-item .detail-link-img.data-v-3e159eb4 {
+  width: 82rpx;
+  height: 82rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  margin-right: 20rpx;
+}
+.detail-link .detail-link-item .detail-link-img image.data-v-3e159eb4 {
+  width: 100%;
+  height: 100%;
+}
+.detail-link .detail-link-item .detail-link-song.data-v-3e159eb4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.detail-link .detail-link-item .detail-link-song view.data-v-3e159eb4:nth-child(1) {
+  font-size: 28rpx;
+  color: white;
+  margin-bottom: 12rpx;
+}
+.detail-link .detail-link-item .detail-link-song view.data-v-3e159eb4:nth-child(2) {
+  font-size: 22rpx;
+  color: #c2c6bf;
+}
+.detail-link .detail-link-item .detail-link-song view:nth-child(2) image.data-v-3e159eb4 {
+  width: 26rpx;
+  height: 20rpx;
+  margin-right: 10rpx;
+}
+.detail-link .detail-link-item text.data-v-3e159eb4 {
+  color: #c2c6bf;
+  font-size: 50rpx;
+}
+.detail-comment.data-v-3e159eb4 {
+  margin: 0 30rpx;
+}
+.detail-comment .detail-comment-item.data-v-3e159eb4 {
+  margin-top: 40rpx;
+  margin-bottom: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.detail-comment .detail-comment-item .detail-comment-img.data-v-3e159eb4 {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 18rpx;
+}
+.detail-comment .detail-comment-item .detail-comment-img image.data-v-3e159eb4 {
+  width: 100%;
+  height: 100%;
+}
+.detail-comment .detail-comment-item .detail-comment-content.data-v-3e159eb4 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.detail-comment .detail-comment-item .detail-comment-content .detail-comment-title.data-v-3e159eb4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.detail-comment .detail-comment-item .detail-comment-content .detail-comment-title .detail-comment-name view.data-v-3e159eb4:nth-child(1) {
+  font-size: 26rpx;
+  color: white;
+}
+.detail-comment .detail-comment-item .detail-comment-content .detail-comment-title .detail-comment-name view.data-v-3e159eb4:nth-child(2) {
+  color: #cbcacf;
+  font-size: 20rpx;
+}
+.detail-comment .detail-comment-item .detail-comment-content .detail-comment-title .detail-comment-link.data-v-3e159eb4 {
+  font-size: 28rpx;
+  color: #cbcacf;
+}
+.detail-comment .detail-comment-item .detail-comment-content .detail-comment-text.data-v-3e159eb4 {
+  font-size: 28rpx;
+  line-height: 48rpx;
+  color: white;
+  margin-top: 20rpx;
+  border-bottom: 1px #e0e0e0 solid;
+  padding-bottom: 40rpx;
+}
+

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "music-head": "/components/musicHead/musicHead"
+  }
+}

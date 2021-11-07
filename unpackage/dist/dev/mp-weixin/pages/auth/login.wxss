@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.login .login-img.data-v-cbd6070a {
+  width: 100%;
+  height: 450rpx;
+}
+.login .login-img image.data-v-cbd6070a {
+  width: 100%;
+  height: 100%;
+}
+.login .login-active.data-v-cbd6070a {
+  box-shadow: 5rpx 5rpx 8rpx rgba(0, 0, 0, 0.4);
+  height: 100rpx;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 50rpx;
+  background: #FFFFFF;
+  position: relative;
+  top: -40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  line-height: 100rpx;
+  text-align: center;
+}
+.login .login-active view.data-v-cbd6070a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #9f9f9f;
+  height: 100%;
+  border-radius: 45rpx;
+}
+.login .login-active .active.data-v-cbd6070a {
+  background: #dc2c1f;
+  color: white;
+}
+.login .login-login.data-v-cbd6070a {
+  margin: 0 60rpx;
+}
+.login .login-login .login-login-item.data-v-cbd6070a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #cccccc;
+}
+.login .login-login .login-login-item .login-login-item-input.data-v-cbd6070a {
+  font-size: 28rpx;
+}
+.login .login-login .login-login-item text.data-v-cbd6070a {
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 60rpx;
+  color: #dc2c1f;
+}
+.login .login-login .login-login-item .view-btn.data-v-cbd6070a {
+  background: #dc2c1f;
+  color: white;
+  border-radius: 40rpx;
+}
+.login .login-login .code.data-v-cbd6070a {
+  margin: 20rpx 0;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #9f9f9f;
+}
+.login .login-login .login-login-btn.data-v-cbd6070a {
+  background: #dc2c1f;
+  color: white;
+  margin-top: 30rpx;
+  border-radius: 40rpx;
+  height: 100rpx;
+  text-align: center;
+  font-size: 34rpx;
+}
+
